@@ -7,9 +7,6 @@ import Todo from './todo/todo';
 import About from './about/about';
 
 ReactDOM.render(
-    <div>
-      <Todo />
-      <About />
-    </div>
+    <App />
   , document.getElementById('root'));
 registerServiceWorker();
